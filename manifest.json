@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Jira estimative counter",
+    "description": "calcula as estimativas de determinado container de issues Jira",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Jira issues counter",
+        "default_icon": "icon.png"
+    }
+}
